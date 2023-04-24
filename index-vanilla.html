@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thailand Healthcare Centers Map</title>
+  <link rel="stylesheet/less" href="/static/styles.less" />
+</head>
+
+<body>
+  <div id="map"></div>
+  <div>
+    <button onclick="updateSearchRadius(5_000)">5 km</button>
+    <button onclick="updateSearchRadius(10_000)">10 km</button>
+    <button onclick="updateSearchRadius(20_000)">20 km</button>
+  </div>
+
+  <script type="module" href="./static/app.js"></script>
+</body>
+</html>
